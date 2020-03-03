@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             //case (-2,+1)
             
         else if intXstart - 2 == intXend, intYstart + 1 == intYend {
-            resultLabel.text = "Possible Paths:\n (\(intXstart),\(intYstart)) -> (\(intXstart - 1),\(intYstart)) -> (\(intXstart - 2),\(intYstart)) -> (\(intXstart - 2),\(intYstart + 1))\n (\(intXstart),\(intYstart)) -> (\(intXstart),\(intYstart + 1)) -> (\(intXstart - 1),\(intYstart - 1)) -> (\(intXstart - 2),\(intYstart - 1))"
+            resultLabel.text = "Possible Paths:\n (\(intXstart),\(intYstart)) -> (\(intXstart - 1),\(intYstart)) -> (\(intXstart - 2),\(intYstart)) -> (\(intXstart - 2),\(intYstart + 1))\n (\(intXstart),\(intYstart)) -> (\(intXstart),\(intYstart + 1)) -> (\(intXstart - 1),\(intYstart + 1)) -> (\(intXstart - 2),\(intYstart + 1))"
         }
             
             //case (-1,-2)
